@@ -109,10 +109,7 @@ public class PayInterface {
              
             }
         }while(num!=4);
-        log("Payment amount for commission emp: " + new BasePlusCommissionEmployee(10_000, 500).getPaymentAmount());
         
-        log("for hourly emp: " + new HourlyEmployee(20_000, 6).getPaymentAmount());
-        log("for salaried emp: " + new SalariedEmployee(20_000).getPaymentAmount());
     }
     catch(Exception e){
         System.err.println(e);
